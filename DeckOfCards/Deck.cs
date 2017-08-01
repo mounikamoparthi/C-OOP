@@ -39,7 +39,7 @@ namespace DeckOfCards
     }
     public Deck Shuffle(){
         Random rand = new Random();
-        for(int idx = cards.Count-1; idx>0; idx--){
+        for(int idx = cards.Count-1; idx > 0; idx--){
             int randidx = rand.Next(idx);
             Card temp = cards[randidx];
             cards[randidx] = cards[idx];

@@ -12,6 +12,7 @@ namespace DeckOfCards
             Console.WriteLine(bob.cards.Count);
             Player joe = new Player("fghjkl");
             joe.Draw(bob);
+            System.Console.WriteLine(joe.hand.Count);
             joe.discard(4);
         }
     }
