@@ -6,6 +6,11 @@ namespace DeckOfCards
     public class Deck
     {
     public List<Card> cards;
+    public Deck(){
+        Reset();
+        Shuffle();
+        Deal();
+    }
     public Card Deal(){
         if (cards.Count> 0){
             Card temp = cards[0];
@@ -13,12 +18,16 @@ namespace DeckOfCards
             return temp;
 
         }
+        else{
+            Reset();
+            //return deal();
+        }
         return null; 
     }
     public Deck Reset(){
         List<Card> cards = new List<Card>();
         string[] suits =  {"Hearts","Spades","Clubs","Diamonds"}; //string[] suits = new string[4]{}
-        string[] strVals = {"Ace", "two"};
+        string[] strVals = {"Ace", "two", "three", "four", "five","six","seven","eight","nine","ten","Jack","Queen","King"};
         foreach (string suit in suits){
             for (int val = 0; val< strVals.Length; val++){
                 Card value = new Card(strVals[val],suit,val+1);

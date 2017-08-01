@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mouni\\desktop\\C# Stack\\C#_OOP\\DeckOfCards\\DeckOfCards.csproj",
+      "projectUniqueName": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\DeckOfCards\\DeckOfCards.csproj",
       "projectName": "DeckOfCards",
-      "projectPath": "C:\\Users\\mouni\\desktop\\C# Stack\\C#_OOP\\DeckOfCards\\DeckOfCards.csproj",
-      "outputPath": "C:\\Users\\mouni\\desktop\\C# Stack\\C#_OOP\\DeckOfCards\\obj\\",
+      "projectPath": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\DeckOfCards\\DeckOfCards.csproj",
+      "outputPath": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\DeckOfCards\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/DeckOfCards.dll": "C:\\Users\\mouni\\desktop\\C# Stack\\C#_OOP\\DeckOfCards\\bin\\placeholder\\netcoreapp1.1\\DeckOfCards.dll"
+        "lib/netcoreapp1.1/DeckOfCards.dll": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\DeckOfCards\\bin\\placeholder\\netcoreapp1.1\\DeckOfCards.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
