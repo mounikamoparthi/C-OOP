@@ -1,0 +1,8 @@
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\bin\Debug\netcoreapp1.1\DeckOfCards.deps.json
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\bin\Debug\netcoreapp1.1\DeckOfCards.runtimeconfig.json
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\bin\Debug\netcoreapp1.1\DeckOfCards.runtimeconfig.dev.json
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\bin\Debug\netcoreapp1.1\DeckOfCards.dll
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\bin\Debug\netcoreapp1.1\DeckOfCards.pdb
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\obj\Debug\netcoreapp1.1\DeckOfCards.AssemblyInfo.cs
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\obj\Debug\netcoreapp1.1\DeckOfCards.dll
+c:\Users\mouni\desktop\C# Stack\C#_OOP\DeckOfCards\obj\Debug\netcoreapp1.1\DeckOfCards.pdb
