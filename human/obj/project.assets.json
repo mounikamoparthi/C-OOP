@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mouni\\desktop\\c#\\human\\human.csproj",
+      "projectUniqueName": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\human\\human.csproj",
       "projectName": "human",
-      "projectPath": "C:\\Users\\mouni\\desktop\\c#\\human\\human.csproj",
-      "outputPath": "C:\\Users\\mouni\\desktop\\c#\\human\\obj\\",
+      "projectPath": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\human\\human.csproj",
+      "outputPath": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\human\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/human.dll": "C:\\Users\\mouni\\desktop\\c#\\human\\bin\\placeholder\\netcoreapp1.1\\human.dll"
+        "lib/netcoreapp1.1/human.dll": "C:\\Users\\mouni\\Desktop\\C# Stack\\C#_OOP\\human\\bin\\placeholder\\netcoreapp1.1\\human.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
