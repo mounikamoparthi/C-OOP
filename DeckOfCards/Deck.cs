@@ -1,53 +1,67 @@
-using System;
 using System.Collections.Generic;
+using System;
 
 namespace DeckOfCards
 {
     public class Deck
     {
-    public List<Card> cards;
-    public Deck(){
-        Reset();
-        Shuffle();
-        Deal();
-    }
-    public Card Deal(){
-        if (cards.Count> 0){
-            Card temp = cards[0];
-            cards.RemoveAt(0);
-            return temp;
+        public List<Card> cards;
 
+        public Deck()
+        {
+            reset();
+            shuffle();
         }
-        else{
-            Reset();
-            //return deal();
-        }
-        return null; 
-    }
-    public Deck Reset(){
-        List<Card> cards = new List<Card>();
-        string[] suits =  {"Hearts","Spades","Clubs","Diamonds"}; //string[] suits = new string[4]{}
-        string[] strVals = {"Ace", "two", "three", "four", "five","six","seven","eight","nine","ten","Jack","Queen","King"};
-        foreach (string suit in suits){
-            for (int val = 0; val< strVals.Length; val++){
-                Card value = new Card(strVals[val],suit,val+1);
-                cards.Add(new Card(strVals[val],suit,val));
+        public Deck reset()
+        {
+            cards = new List<Card>();
+            string[] suits = {"hearts","diamonds","spades","clubs"};
+            string[] strVals = {"Ace","two","three","four","five","six","seven","eight","nine","ten","Jack","Queen","King"};
+            // for each suit assemble set of cards
+            foreach(string Suit in suits)
+            {
+                // build out set of individual cards, ye?
+                for (int i = 0; i<strVals.Length;i++)
+                {
+                    Card noob = new Card(strVals[i], Suit, i+1);
+                    cards.Add(noob);
+                }
             }
-
-        }
             return this;
-    }
-    public Deck Shuffle(){
-        Random rand = new Random();
-        for(int idx = cards.Count-1; idx > 0; idx--){
-            int randidx = rand.Next(idx);
-            Card temp = cards[randidx];
-            cards[randidx] = cards[idx];
-            cards[idx] = temp;
         }
-    return this;
+
+        public Deck shuffle()
+        {
+            // iterate backwards through our deck!
+            Random rando = new Random();
+            for (int end = cards.Count-1; end > 0; end--)
+            {
+                // grab a random card
+                int randx = rando.Next(end);
+                Card temp = cards[randx];
+                // swap it with our end value
+                cards[randx] = cards[end];
+                cards[end] = temp;
+            }
+            return this;
+        }
+
+        public Card deal()
+        {
+            if (cards.Count > 0)
+            {
+                // grab top card
+                Card res = cards[0];
+                // remove said card
+                cards.RemoveAt(0);
+                // return said card
+                return res;
+            }
+            else{
+                reset();
+                return deal();
+            }
+        }
     }
 
-
-    }
-    }
+}

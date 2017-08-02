@@ -7,13 +7,14 @@ namespace DeckOfCards
         static void Main(string[] args)
         {
             Card bill = new Card("bill","black",1);
-            Console.WriteLine(bill.val);
-            Deck bob = new Deck().Reset();
-            Console.WriteLine(bob.cards.Count);
+            Console.WriteLine(bill.val+ bill.suit);
+            Deck bob = new Deck().reset();
+            //Console.WriteLine(bob.cards.Count);
             Player joe = new Player("fghjkl");
-            joe.Draw(bob);
+            joe.draw(bob,5);
             System.Console.WriteLine(joe.hand.Count);
             joe.discard(4);
+            System.Console.WriteLine(joe.hand.Count);
         }
     }
 }
